@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row justify-content-center pt-5">
+      <div class="col-6 mx-auto">
+      <div class="card">
+          <h5 class="card-header text-center" style="background-color: black; color: white;">User Details</h5>
+          <i class="fa-solid fa-user mb-4 mt-3 uesericon text-center" style="color: #71d456;"></i>          <div class="card-body">
+              <h5 class="card-title">Id :{{user?.id}}</h5>
+              <p class="card-text">firstName: {{user?.firstName}}</p>
+              <p class="card-text">lastName: {{user?.lastName}}</p>
+              <p class="card-text">Email: {{user?.email}}</p>
+              <p class="card-text">Address: {{user?.address}}</p>
+              <p class="card-text">Phone:{{user?.phone}}</p> <a [routerLink]="['/']"
+                  class="btn btn-primary mt-3">Go Back</a>
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+
+
